@@ -1,0 +1,64 @@
+.Lorem {
+	width: 30%;
+}
+
+body {
+	
+
+}
+
+.Lorems {
+	display: flex; 
+	justify-content: space-around;
+
+}
+
+
+.Opis {
+	width: 30%; 
+	border: 5px solid transparent;
+	border-image: linear-gradient(to bottom right, #b827fc 0%, #2c90fc 25%, #b8fd33 50%, #fec837 75%, #fd1892 100%);
+	border-image-slice: 1;
+	height: 275px;
+}
+
+
+.Gost {
+	text-align: right;
+}
+
+
+.DivGost {
+	width: 200px;	height: 100px; 
+	outline: 2px solid #000; 
+	border: 3px solid #fff;
+	border-radius: 10px;
+	height: 45px;
+	display: flex;
+	justify-content: space-around;
+}
+
+
+.avatar {
+	width: 50px;
+	border-radius: 50px;
+	-webkit-box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 1);
+	-moz-box-shadow:    0px 0px 10px 0px rgba(0, 0, 0, 1);
+	box-shadow:         0px 0px 10px 0px rgba(0, 0, 0, 1);
+}
+
+
+.div {
+	display: flex;
+	justify-content: space-between;	
+}
+
+textarea {
+	height: 100px;
+	width: 500px;px;
+	border:0;	
+	background: none;
+	color: black;
+}
+
+
