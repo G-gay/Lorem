@@ -28,3 +28,30 @@ function copyText1(argument) {
 	document.execCommand("copy");
 	alert("Copied the text: " + copyText.value);
 }
+
+
+function copyText2(argument) {
+	var copyText = document.getElementById("text-2");
+	copyText.select();
+	copyText.setSelectionRange(0, 99999)
+	document.execCommand("copy");
+	alert("Copied the text: " + copyText.value);
+}
+
+
+function copyText3(argument) {
+	var copyText = document.getElementById("text-3");
+	copyText.select();
+	copyText.setSelectionRange(0, 99999)
+	document.execCommand("copy");
+	alert("Copied the text: " + copyText.value);
+}
+
+
+function copyText4(argument) {
+	var copyText = document.getElementById("text-4");
+	copyText.select();
+	copyText.setSelectionRange(0, 99999)
+	document.execCommand("copy");
+	alert("Copied the text: " + copyText.value);
+}
